@@ -1,0 +1,72 @@
+.mainTopHeader {
+    font-size: 32px;
+}
+.mainTopContent {
+    margin-top: 36px;
+}
+
+
+.mainButtonContTop {
+   
+}
+
+
+@media screen and (max-width: 600px) {
+    .mobileAiImageCont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }   
+    .mobileAiImageCont  img {
+        width: 196px;
+        height: 42px;
+    }   
+    .mainTopHeader {
+        font-size: 28px;
+        margin: 0px;
+        text-align: center;
+        margin-top: 12px;
+    }
+    
+    .mainTopContent {
+        text-align: center;
+        width: 310px;
+        margin: auto;
+        margin-top: 12px;
+    }
+    .mainButtonContTop
+    {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        width: 200px;
+        align-items: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .mainButtonContTop a
+    {
+        margin: 0px;
+        font-size: 18px !important;
+        width: 100%;
+    }
+    .mobileMainTextWidth
+    {
+        width:310px;
+        margin: auto;
+    }
+    .mobileLinkMainWatchVideo
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .mobileVersionMuseApi
+    {
+        width: 311px !important;
+        margin: auto !important;
+    }
+
+}
+
+

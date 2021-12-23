@@ -1,0 +1,181 @@
+.pricingButton{
+    display: flex;
+    justify-content: center;
+    height: 54px;
+    width: 100%;
+}
+
+.pricingButtonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+
+.pricingCard {
+    border: 1px solid #E1E6ED;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height:488px;
+    padding: 40px 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.cardLine
+{
+    width: 100%;
+    background-color: lightgrey;
+    border:none; 
+    border-bottom: 1px solid #E1E6ED;
+    margin-top: 60px;
+}
+
+.cardLine2
+{
+    width: 100%;
+    background-color: lightgrey;
+    border:none; 
+    border-bottom: 1px solid #E1E6ED;
+    margin-top: 5px;
+}
+
+
+.cardText
+{
+    color:#797B82;
+    font-size: 12px;
+}
+
+
+.cardTopOrangeLine
+{
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: #F37021;
+    top: 0px;
+}
+
+
+.cardsCont
+{
+    max-width: 880px;
+    display: flex;
+    margin: auto;
+    column-gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.pricingCardHeader
+{
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    /* identical to box height, or 120% */
+    color: #6B7480;
+    margin: 0px;
+}
+
+.pricingCardList
+{   
+
+}
+.pricingCardList li
+{
+    text-align: start;
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: center;
+    color: #6B7480;
+}
+
+.eduApiSectionCard
+{
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   border: 1px solid #E1E6ED;
+box-sizing: border-box;
+border-radius: 10px;
+padding: 30px 56px;
+}
+
+.eduApiCardHeader
+{
+    font-size: 20px;
+    color: #6B7480;
+    text-align: center;
+    margin: 0px;
+}
+
+
+.eduApiCardLine
+{
+    width: 100%;
+    border: none;
+     border-bottom: 1px solid #E1E6ED;
+     margin: 0px;
+     margin-top: 40px;
+}
+.eduApiSectionList
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 36px;
+}
+
+
+.eduApiSectionList li
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    column-gap: 8px;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+display: flex;
+align-items: center;
+
+/* text/grey2 */
+
+color: #494B52;
+
+}
+
+@media screen and (max-width: 768px) {
+    .pricingCard {
+        width: 375px;
+        height: auto;
+        padding: 20px;
+    }
+    .cardsCont
+    {
+        padding: 20px;
+    }
+}

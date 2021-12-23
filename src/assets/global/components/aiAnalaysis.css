@@ -1,0 +1,50 @@
+.aiAnlyzPage3
+{
+    font-size: 18px;
+}
+.aiAnlyzPage1
+{
+    font-size: 42px;
+}
+
+.aiAnlyzPageElementsDown
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+.aiAnalyzeBlock
+{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px)
+{
+    .aiAnlyzPage3
+    {
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    .aiAnlyzPage1
+    {
+        font-size: 28px;
+        margin: 0px;
+        margin-top: 12px;
+        margin-bottom: 5px;
+    }
+    .mobileDiveder
+    {
+        height: 20px;
+    }
+    .fullWidthMobileBlock
+    {
+        width: 100%;
+    }
+}
+    
